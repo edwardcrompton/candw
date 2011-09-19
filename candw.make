@@ -2,7 +2,7 @@ core = 7.x
 api = 2
 
 ; Contrib
-;projects[] = views
+projects[] = views
 ;projects[] = pathauto
 ;projects[] = admin
 ;projects[] = features

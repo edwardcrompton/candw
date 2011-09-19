@@ -3,7 +3,7 @@ description = Install as a Cameron & Wilding blog site.
 version = VERSION
 core = 7.x
 ;dependencies[] = features
-;dependencies[] = views
+dependencies[] = views
 ;dependencies[] = c_w_blog
 files[] = candw.profile
 
