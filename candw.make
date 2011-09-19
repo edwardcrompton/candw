@@ -2,12 +2,12 @@ core = 7.x
 api = 2
 
 ; Contrib
-projects[] = views
-projects[] = pathauto
-projects[] = admin
-projects[] = features
-projects[] = captcha
-projects[] = ctools
+;projects[] = views
+;projects[] = pathauto
+;projects[] = admin
+;projects[] = features
+;projects[] = captcha
+;projects[] = ctools
 
 ; Features
 ;projects[c_w_blog][type] = "module"

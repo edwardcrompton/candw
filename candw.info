@@ -2,9 +2,9 @@ name = C & W Blog
 description = Install as a Cameron & Wilding blog site.
 version = VERSION
 core = 7.x
-dependencies[] = features
-dependencies[] = views
-dependencies[] = c_w_blog
+;dependencies[] = features
+;dependencies[] = views
+;dependencies[] = c_w_blog
 files[] = candw.profile
 
 ; Information added by drupal.org packaging script on 2011-08-31
