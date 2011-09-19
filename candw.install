@@ -4,10 +4,13 @@
  * Implements hook_install().
  *
  * Perform actions to set up the site for this profile.
+ * We'll just call the install method from the standard install here. Everything else we do will be on top of that.
  */
 function candw_install() {
-	
+	include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+	standard_install();	
 }
+
 
 function candw_install_tasks() {
 	$task['fbconnect_settings'] = array(
@@ -15,7 +18,7 @@ function candw_install_tasks() {
 	  'display' => TRUE,
 	  'type' => 'form',
 	  'run' => INSTALL_TASK_RUN_IF_NOT_COMPLETED,
-	  'function' => 'function_to_execute',
+	  'function' => 'fbconnect_api_keys_settings',
 );
 
 }
