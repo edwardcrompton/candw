@@ -29,6 +29,9 @@ dependencies[] = rdf
 ;Contrib modules for C&W
 dependencies[] = features
 dependencies[] = views
+dependencies[] = strongarm
+dependencies[] = fbconnect
+dependancies[] = strongarm
 
 ;Features for C&W
 dependencies[] = c_w_blog
