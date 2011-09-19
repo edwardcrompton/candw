@@ -8,8 +8,6 @@ projects[] = admin
 projects[] = features
 projects[] = captcha
 projects[] = ctools
-projects[] = imagecache
-projects[] = smtp
 
 ; Features
 projects[c_w_blog][type] = "module"
