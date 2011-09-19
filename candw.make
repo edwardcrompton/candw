@@ -7,7 +7,7 @@ projects[] = views
 ;projects[] = admin
 ;projects[] = features
 ;projects[] = captcha
-;projects[] = ctools
+projects[] = ctools
 
 ; Features
 ;projects[c_w_blog][type] = "module"
