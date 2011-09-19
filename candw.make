@@ -1,6 +1,16 @@
 core = 7.x
 api = 2
 
+; Contrib
+projects[] = views
+projects[] = pathauto
+projects[] = admin
+projects[] = features
+projects[] = captcha
+projects[] = ctools
+projects[] = imagecache
+projects[] = smtp
+
 ; Features
 projects[c_w_blog][type] = "module"
 projects[c_w_blog][download][type] = "git"
