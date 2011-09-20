@@ -19,7 +19,7 @@ function candw_install_tasks() {
 	  'type' => 'form',
 	  'run' => INSTALL_TASK_RUN_IF_NOT_COMPLETED,
 	  'function' => 'candw_fbconnect_api_keys_settings',
-    );
+    );   
 
     return $tasks;
 }
