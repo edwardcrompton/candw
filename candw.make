@@ -31,7 +31,7 @@ projects[high_contrast][subdir] = "custom"
 
 libraries[facebook-php-sdk][download][type] = "get"
 libraries[facebook-php-sdk][download][url] = "http://github.com/facebook/php-sdk/tarball/v2.1.1"
-libraries[facebook-php-sdk][destination] = "modules/fbconnect"
+libraries[facebook-php-sdk][destination] = "modules/contrib/fbconnect"
 
 ; Features
 projects[c_w_blog][type] = "module"
