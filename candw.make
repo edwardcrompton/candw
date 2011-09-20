@@ -25,6 +25,7 @@ projects[high_contrast][subdir] = "custom"
 ; Libraries
 libraries[facebook-php-sdk][download][type] = "git"
 libraries[facebook-php-sdk][download][url] = "https://github.com/facebook/php-sdk.git"
+libraries[facebook-php-sdk][download][tag] = "v2.1.2"
 libraries[facebook-php-sdk][directory_name] = "facebook-php-sdk"
 libraries[facebook-php-sdk][destination] = "modules/contrib/fbconnect"
 
