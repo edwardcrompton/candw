@@ -17,17 +17,16 @@ projects[ctools][version] = "1.0-rc1"
 
 ; Contrib from git
 projects[fbconnect][type] = "module"
-projects[fbconnect][download][type] = "git"
-projects[fbconnect][download][url] = "git@drupalcode.org/project/fbconnect.git"
-projects[fbconnect][download][branch] = "master"
-projects[fbconnect][subdir] = "custom"
+projects[fbconnect][download][type] = "get"
+projects[fbconnect][download][url] = "http://drupalcode.org/project/fbconnect.git"
+projects[fbconnect][download][branch] = "7.x-2.x"
+projects[fbconnect][subdir] = "contrib"
 
 ; Custom
 projects[high_contrast][type] = "module"
 projects[high_contrast][download][type] = "git"
 projects[high_contrast][download][url] = "git@github.com:acontia/High-contrast.git"
-projects[high_contrast][download][branch] = "7.x-2.x"
-projects[high_contrast][subdir] = "contrib"
+projects[high_contrast][subdir] = "custom"
 
 ; Libraries
 ;libraries[facebook-php-sdk][download][type] = "git"
@@ -36,9 +35,9 @@ projects[high_contrast][subdir] = "contrib"
 ;libraries[facebook-php-sdk][directory_name] = "facebook-php-sdk"
 ;libraries[facebook-php-sdk][destination] = "modules/contrib/fbconnect"
 
-libraries[facebook][download][type] = "get"
-libraries[facebook][download][url] = "http://github.com/facebook/php-sdk/tarball/v2.1.2"
-;libraries[facebook-php-sdk][destination] = "modules/contrib/fbconnect"
+libraries[facebook-php-sdk][download][type] = "get"
+libraries[facebook-php-sdk][download][url] = "http://github.com/facebook/php-sdk/tarball/v2.1.2"
+libraries[facebook-php-sdk][destination] = "modules/contrib/fbconnect"
 
 ; Features
 ;projects[c_w_blog][type] = "module"
