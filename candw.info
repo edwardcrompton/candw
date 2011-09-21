@@ -27,7 +27,7 @@ dependencies[] = file
 dependencies[] = rdf
 
 ;Contrib modules for C&W
-dependencies[] = features
+;dependencies[] = features
 dependencies[] = views
 dependencies[] = fbconnect
 
