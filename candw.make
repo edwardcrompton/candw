@@ -10,17 +10,24 @@ projects[views][version] = "3.0-rc1"
 ;projects[] = captcha
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-rc1" 
-projects[fbconnect][subdir] = "contrib"
-projects[fbconnect][version] = "2.x-dev"
+;projects[fbconnect][subdir] = "contrib"
+;projects[fbconnect][version] = "2.x-dev"
 ;projects[strongarm][subdir] = "contrib"
 ;projects[strongarm][version] = "2.0-beta2"
+
+; Contrib from git
+projects[fbconnect][type] = "module"
+projects[fbconnect][download][type] = "git"
+projects[fbconnect][download][url] = "git@drupalcode.org/project/fbconnect.git"
+projects[fbconnect][download][branch] = "master"
+projects[fbconnect][subdir] = "custom"
 
 ; Custom
 projects[high_contrast][type] = "module"
 projects[high_contrast][download][type] = "git"
 projects[high_contrast][download][url] = "git@github.com:acontia/High-contrast.git"
-projects[high_contrast][download][branch] = "master"
-projects[high_contrast][subdir] = "custom"
+projects[high_contrast][download][branch] = "7.x-2.x"
+projects[high_contrast][subdir] = "contrib"
 
 ; Libraries
 ;libraries[facebook-php-sdk][download][type] = "git"
