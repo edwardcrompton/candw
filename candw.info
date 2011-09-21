@@ -30,6 +30,7 @@ dependencies[] = rdf
 ;dependencies[] = features
 dependencies[] = views
 dependencies[] = fbconnect
+dependencies[] = high_contrast
 
 ;Features for C&W
 ;dependencies[] = c_w_blog
