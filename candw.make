@@ -18,7 +18,8 @@ projects[ctools][version] = "1.0-rc1"
 ; Contrib from git
 projects[fbconnect][type] = "module"
 projects[fbconnect][download][type] = "git"
-projects[fbconnect][download][url] = "http://drupalcode.org/project/fbconnect.git/tree/refs/heads/7.x-2.x"
+projects[fbconnect][download][url] = "git://drupalcode.org/project/fbconnect.git"
+projects[fbconnect][download][revision] = "af8c7de70a6aa2d9218a0d08db2160cc98bf4438"
 projects[fbconnect][subdir] = "contrib"
 
 ; Custom
