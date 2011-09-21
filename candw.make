@@ -17,8 +17,8 @@ projects[ctools][version] = "1.0-rc1"
 
 ; Contrib from git
 projects[fbconnect][type] = "module"
-projects[fbconnect][download][type] = "get"
-projects[fbconnect][download][url] = "http://drupalcode.org/project/fbconnect.git"
+projects[fbconnect][download][type] = "git"
+projects[fbconnect][download][url] = "git@drupalcode.org/project/fbconnect.git"
 projects[fbconnect][download][branch] = "7.x-2.x"
 projects[fbconnect][subdir] = "contrib"
 
@@ -37,6 +37,9 @@ projects[high_contrast][subdir] = "custom"
 
 libraries[facebook-php-sdk][download][type] = "get"
 libraries[facebook-php-sdk][download][url] = "http://github.com/facebook/php-sdk/tarball/v2.1.2"
+
+http://drupalcode.org/project/fbconnect.git/shortlog/refs/heads/7.x-2.x
+
 libraries[facebook-php-sdk][destination] = "modules/contrib/fbconnect"
 
 ; Features
