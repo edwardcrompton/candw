@@ -34,8 +34,8 @@ libraries[facebook-php-sdk][download][url] = "http://github.com/facebook/php-sdk
 ;libraries[facebook-php-sdk][destination] = "modules/contrib/fbconnect"
 
 ; Features
-projects[c_w_blog][type] = "module"
-projects[c_w_blog][download][type] = "git"
-projects[c_w_blog][download][url] = "git@github.com:edwardcrompton/c_w_blog.git"
-projects[c_w_blog][download][branch] = "master"
-projects[c_w_blog][subdir] = "custom"
+;projects[c_w_blog][type] = "module"
+;projects[c_w_blog][download][type] = "git"
+;projects[c_w_blog][download][url] = "git@github.com:edwardcrompton/c_w_blog.git"
+;projects[c_w_blog][download][branch] = "master"
+;projects[c_w_blog][subdir] = "custom"
