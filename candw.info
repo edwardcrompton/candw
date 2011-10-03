@@ -27,17 +27,5 @@ dependencies[] = file
 dependencies[] = rdf
 
 ;Contrib modules for C&W
-;dependencies[] = features
 dependencies[] = views
-dependencies[] = fbconnect
 dependencies[] = high_contrast
-
-;Features for C&W
-;dependencies[] = c_w_blog
-files[] = candw.profile
-
-; Information added by drupal.org packaging script on 2011-08-31
-version = "7.8"
-project = "drupal"
-datestamp = "1314817616"
-
