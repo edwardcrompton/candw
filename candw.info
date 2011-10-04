@@ -1,5 +1,5 @@
-name = C & W Blog
-description = Install as a Cameron & Wilding blog site.
+name = C & W Custom
+description = Install the Cameron & Wilding custom profile example
 version = VERSION
 core = 7.x
 
